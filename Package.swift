@@ -17,7 +17,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/bytedance/AdsGlobalPackage.git",
-            from: "7.0.0"
+            exact: "7.9.1-release.1"
         )
     ],
     targets: [
